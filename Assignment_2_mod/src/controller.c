@@ -4,9 +4,6 @@
 #include<stdio.h>
 
 double check_angle(double val){
-    // printf("checking head bounds\n");
-    // fflush(stdout);
-
 	//either returns original theta if within bounds or will
 	//simplify theta to be within bounds
 
@@ -34,47 +31,35 @@ double check_angle(double val){
 }
 
 double check_linv_bounds(double val){
-    // printf("checking linv bounds\n");
-    // fflush(stdout);
     if(val < 5){
-        // printf("will be lower bound\n");
-        // fflush(stdout);
+
         return 5;
     }
     if(val > 10){
-        // printf("will be higher bound\n");
-        // fflush(stdout);
+
         return 10;
     }
-    // printf("pass value linv\n");
-    // fflush(stdout);
+
     return val;
 }
 
 double check_angv_bounds(double val){
-    // printf("checking angv bounds\n");
-    // fflush(stdout);
+
     if(val < -M_PI_4){
-        // printf("will be lower bounds\n");
-        // fflush(stdout);
+
         return -M_PI_4;
     }
     if(val > M_PI_4){
-        // printf("will be higher bound\n");
-        // fflush(stdout);
+
         return M_PI_4;
     }
-    // printf("pass value angv\n");
-    // fflush(stdout);
     return val;
 }
 
 
 
 control get_proportional_waypoint_control(struct t_vehicle * vehicle){
-    printf("getting control\n");
-    fflush(stdout);
-    
+  
     control * ctrl = malloc(sizeof(control));
     
     //pos_v is position of vehicle and pos_w is position of waypoint
@@ -109,26 +94,11 @@ control get_proportional_waypoint_control(struct t_vehicle * vehicle){
 	//controllers
 
 	//speed prop controller based on distance error
-    double speed = check_linv_bounds(dist); 
+    (*ctrl).speed = check_linv_bounds(0.9*dist); 
     
 	//angular controller based off of specifications
-	double ang_vel = check_angv_bounds(angle_diff);
-	
-    //for debugging purposes
-    // double speed = 6;
-    // double ang_vel = M_PI/6;
+	(*ctrl).angular_velocity = check_angv_bounds(angle_diff);
 
-	(*ctrl).speed = speed;
-	(*ctrl).angular_velocity = ang_vel;
-
-	printf("speed: %f\n", (*ctrl).speed);
-    fflush(stdout);
-    
-    printf("ang_vel: %f \n", (*ctrl).angular_velocity);
-	fflush(stdout);
-    
-    printf("returning control\n");
-    fflush(stdout);
 	return *ctrl;
 }
 
