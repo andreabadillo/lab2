@@ -1,0 +1,324 @@
+Start testing: Apr 14 23:02 EDT
+----------------------------------------------------------
+1/21 Testing: out_low_linv_bound
+1/21 Test: out_low_linv_bound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_linvel_controller" "1"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"out_low_linv_bound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"out_low_linv_bound" end time: Apr 14 23:02 EDT
+"out_low_linv_bound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/21 Testing: low_linv_bound
+2/21 Test: low_linv_bound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_linvel_controller" "2"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"low_linv_bound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"low_linv_bound" end time: Apr 14 23:02 EDT
+"low_linv_bound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/21 Testing: upp_linv_bound
+3/21 Test: upp_linv_bound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_linvel_controller" "3"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"upp_linv_bound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"upp_linv_bound" end time: Apr 14 23:02 EDT
+"upp_linv_bound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/21 Testing: out_upp_linv_bound
+4/21 Test: out_upp_linv_bound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_linvel_controller" "4"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"out_upp_linv_bound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"out_upp_linv_bound" end time: Apr 14 23:02 EDT
+"out_upp_linv_bound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/21 Testing: zero_angle
+5/21 Test: zero_angle
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_angvel_controller" "1"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"zero_angle" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"zero_angle" end time: Apr 14 23:02 EDT
+"zero_angle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/21 Testing: positive_angle
+6/21 Test: positive_angle
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_angvel_controller" "2"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"positive_angle" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"positive_angle" end time: Apr 14 23:02 EDT
+"positive_angle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/21 Testing: positive_angle_outside_limits
+7/21 Test: positive_angle_outside_limits
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_angvel_controller" "3"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"positive_angle_outside_limits" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"positive_angle_outside_limits" end time: Apr 14 23:02 EDT
+"positive_angle_outside_limits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/21 Testing: negative_angle
+8/21 Test: negative_angle
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_angvel_controller" "4"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"negative_angle" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"negative_angle" end time: Apr 14 23:02 EDT
+"negative_angle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/21 Testing: negative_angle_outside_limits
+9/21 Test: negative_angle_outside_limits
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_angvel_last"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"negative_angle_outside_limits" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"negative_angle_outside_limits" end time: Apr 14 23:02 EDT
+"negative_angle_outside_limits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/21 Testing: upper_posbound
+10/21 Test: upper_posbound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_posbounds" "1"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"upper_posbound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+x pos: 50.707107, y pos 99.999900, theta = 0.863938
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"upper_posbound" end time: Apr 14 23:02 EDT
+"upper_posbound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/21 Testing: lower_posbound
+11/21 Test: lower_posbound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_posbounds" "2"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"lower_posbound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+x pos: 50.000000, y pos 0.000000, theta = -1.492257
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"lower_posbound" end time: Apr 14 23:02 EDT
+"lower_posbound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/21 Testing: left_posbound
+12/21 Test: left_posbound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_posbounds" "3"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"left_posbound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+x pos: 0.000000, y pos 50.309017, theta = 2.905973
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"left_posbound" end time: Apr 14 23:02 EDT
+"left_posbound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/21 Testing: right_posbound
+13/21 Test: right_posbound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_posbounds" "4"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"right_posbound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+x pos: 99.999900, y pos 49.690983, theta = -0.235619
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"right_posbound" end time: Apr 14 23:02 EDT
+"right_posbound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/21 Testing: low_ang_bound
+14/21 Test: low_ang_bound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_posbounds" "5"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"low_ang_bound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+x pos: 49.000152, y pos 49.982548, theta = 3.080506
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"low_ang_bound" end time: Apr 14 23:02 EDT
+"low_ang_bound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/21 Testing: upp_ang_bound
+15/21 Test: upp_ang_bound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_posbounds" "6"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"upp_ang_bound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+x pos: 49.000152, y pos 50.017452, theta = -3.080506
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"upp_ang_bound" end time: Apr 14 23:02 EDT
+"upp_ang_bound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/21 Testing: up_linx_bound
+16/21 Test: up_linx_bound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_velbounds" "1"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"up_linx_bound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"up_linx_bound" end time: Apr 14 23:02 EDT
+"up_linx_bound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/21 Testing: up_liny_bound
+17/21 Test: up_liny_bound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_velbounds" "2"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"up_liny_bound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"up_liny_bound" end time: Apr 14 23:02 EDT
+"up_liny_bound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/21 Testing: up_th_bound
+18/21 Test: up_th_bound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_velbounds" "3"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"up_th_bound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"up_th_bound" end time: Apr 14 23:02 EDT
+"up_th_bound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/21 Testing: low_linx_bound
+19/21 Test: low_linx_bound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_velbounds" "4"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"low_linx_bound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"low_linx_bound" end time: Apr 14 23:02 EDT
+"low_linx_bound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/21 Testing: low_liny_bound
+20/21 Test: low_liny_bound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_velbounds" "5"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"low_liny_bound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"low_liny_bound" end time: Apr 14 23:02 EDT
+"low_liny_bound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/21 Testing: low_th_bound
+21/21 Test: low_th_bound
+Command: "/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build/test_velbounds" "6"
+Directory: /home/racecar/Documents/StudentRepo_ABadillo/Assignment_2/build
+"low_th_bound" start time: Apr 14 23:02 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"low_th_bound" end time: Apr 14 23:02 EDT
+"low_th_bound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 14 23:02 EDT

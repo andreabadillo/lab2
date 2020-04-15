@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/test_angvel_last.dir/tests/test_angvel_last.c.o CMakeFiles/test_angvel_last.dir/src/client.c.o CMakeFiles/test_angvel_last.dir/src/simulator.c.o CMakeFiles/test_angvel_last.dir/src/vehicle.c.o CMakeFiles/test_angvel_last.dir/src/controller.c.o  -o test_angvel_last -rdynamic -lm 

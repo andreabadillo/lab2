@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/test_posbounds.dir/tests/test_posbounds.c.o CMakeFiles/test_posbounds.dir/src/client.c.o CMakeFiles/test_posbounds.dir/src/simulator.c.o CMakeFiles/test_posbounds.dir/src/vehicle.c.o CMakeFiles/test_posbounds.dir/src/controller.c.o  -o test_posbounds -rdynamic -lm 

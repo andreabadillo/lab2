@@ -1,5 +1,0 @@
-/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2_mod/build/CMakeFiles/rebuild_cache.dir
-/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2_mod/build/CMakeFiles/main.dir
-/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2_mod/build/CMakeFiles/edit_cache.dir
-/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2_mod/build/CMakeFiles/test_controller.dir
-/home/racecar/Documents/StudentRepo_ABadillo/Assignment_2_mod/build/CMakeFiles/test.dir
